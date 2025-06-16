@@ -675,7 +675,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -690,6 +690,22 @@
     [
       "ddda30ea-3132-4664-a3e5-44c7c2f9a0e8",
       "Root"
+    ],
+    [
+      "4d1d18a5-4efd-4185-aa19-55a9b4162957",
+      "PCIe 104"
+    ],
+    [
+      "0f060447-a2ef-4342-8d04-d9ed6d81dabf",
+      "Bifurcation"
+    ],
+    [
+      "f193d2c4-471a-4cd0-b84e-f3489ea5c84d",
+      "Power"
+    ],
+    [
+      "033eb65c-a6c5-42e7-b577-05b91c97d1b6",
+      "M.2 NVME"
     ]
   ],
   "text_variables": {}
