@@ -1783,6 +1783,12 @@
 		(uuid "0958cee4-db62-45e6-a77c-acc9d8eca57a")
 	)
 	(junction
+		(at 175.26 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de022db-68ea-443e-9a68-5a5b358637f7")
+	)
+	(junction
 		(at 24.13 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2053,6 +2059,12 @@
 		(uuid "8f8c209d-ccbd-4a99-93f2-2f47bbbc3ad7")
 	)
 	(junction
+		(at 69.85 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f03ea6-e78b-457a-83cd-f06223c41359")
+	)
+	(junction
 		(at 24.13 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2209,6 +2221,12 @@
 		(uuid "d7417bc5-f6e7-4b83-b65d-de5ce4139db8")
 	)
 	(junction
+		(at 68.58 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcec8b26-d555-4ae5-8cc3-204035b137b8")
+	)
+	(junction
 		(at 22.86 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2231,6 +2249,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1a4691c-f7be-4fe8-8320-e5c72b054f2a")
+	)
+	(junction
+		(at 176.53 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2930fa1-83d1-412b-be24-7c2bb7f4d10d")
 	)
 	(junction
 		(at 196.85 168.91)
@@ -3054,6 +3078,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 130.81) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2228a4b6-f075-462f-bc55-513ff9eb5e27")
+	)
+	(wire
+		(pts
 			(xy 195.58 57.15) (xy 195.58 54.61)
 		)
 		(stroke
@@ -3804,6 +3838,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 262.89) (xy 69.85 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c1d1ff-b3c4-454c-9bb2-a25fba6672e5")
+	)
+	(wire
+		(pts
 			(xy 176.53 252.73) (xy 196.85 252.73)
 		)
 		(stroke
@@ -3911,6 +3955,16 @@
 			(type default)
 		)
 		(uuid "ac63b745-a92c-4ea6-817d-f0f7d9885067")
+	)
+	(wire
+		(pts
+			(xy 176.53 260.35) (xy 176.53 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04e89c2-f0c0-4492-9fe6-1445886677b3")
 	)
 	(wire
 		(pts
@@ -4061,6 +4115,16 @@
 			(type default)
 		)
 		(uuid "beab1094-2692-4836-b6b1-d5a8486afbdb")
+	)
+	(wire
+		(pts
+			(xy 175.26 130.81) (xy 175.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21b4188-aca8-4cdf-8443-77128cdccfdc")
 	)
 	(wire
 		(pts
@@ -4596,7 +4660,7 @@
 	)
 	(global_label "PEx1_2R_P"
 		(shape input)
-		(at 39.37 222.25 180)
+		(at 39.37 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4606,7 +4670,7 @@
 		)
 		(uuid "061f111a-fccd-4f8b-9f6b-c7a81ed5ce60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0435 222.25 0)
+			(at 26.0435 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4814,7 @@
 	)
 	(global_label "PEx1_2T_P"
 		(shape input)
-		(at 39.37 229.87 180)
+		(at 39.37 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4760,7 +4824,7 @@
 		)
 		(uuid "53a6a8ba-3310-4582-8b66-3df53f863525")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.3459 229.87 0)
+			(at 26.3459 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4990,7 @@
 	)
 	(global_label "PEx1_1T_N"
 		(shape input)
-		(at 144.78 95.25 180)
+		(at 144.78 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4936,7 +5000,7 @@
 		)
 		(uuid "760fa799-8e94-421d-86df-2986c7dc4e05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.6954 95.25 0)
+			(at 131.6954 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5078,7 @@
 	)
 	(global_label "PEx1_2R_N"
 		(shape input)
-		(at 39.37 219.71 180)
+		(at 39.37 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5024,7 +5088,7 @@
 		)
 		(uuid "9c226535-0388-4d68-9c23-dcc744f6b9cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.983 219.71 0)
+			(at 25.983 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5144,7 @@
 	)
 	(global_label "PEx1_1R_P"
 		(shape input)
-		(at 144.78 90.17 180)
+		(at 144.78 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5090,7 +5154,7 @@
 		)
 		(uuid "aab12afc-2963-49ee-b295-e85c2e875065")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.4535 90.17 0)
+			(at 131.4535 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5210,7 @@
 	)
 	(global_label "PEx1_1R_N"
 		(shape input)
-		(at 144.78 87.63 180)
+		(at 144.78 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5156,7 +5220,7 @@
 		)
 		(uuid "c72566bf-a706-4d61-9c16-bffbb1bc528b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.393 87.63 0)
+			(at 131.393 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5232,7 @@
 	)
 	(global_label "PEx1_1T_P"
 		(shape input)
-		(at 144.78 97.79 180)
+		(at 144.78 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5178,7 +5242,7 @@
 		)
 		(uuid "d053422f-be0c-408f-a09b-6b3ed0acda89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7559 97.79 0)
+			(at 131.7559 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +5342,7 @@
 	)
 	(global_label "PEx1_2T_N"
 		(shape input)
-		(at 39.37 227.33 180)
+		(at 39.37 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5288,7 +5352,7 @@
 		)
 		(uuid "eb3b5cbf-0b0f-4464-8880-9a36352dcec8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2854 227.33 0)
+			(at 26.2854 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d638207-ce13-4194-8de2-03246b96d4e9")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 160.02 26.67 0)
 			(effects
 				(font
@@ -5823,7 +5887,7 @@
 		(instances
 			(project "PCI_104_PCIE_Adapterboard"
 				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5962,6 +6026,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 176.53 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c865962-3ab6-4c10-9f2f-554676b7e4c9")
+		(property "Reference" "#PWR061"
+			(at 176.53 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5a8fa46-19df-4691-b9c8-aff218a1e182")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1-2199119-5:1-2199119-5")
 		(at 54.61 214.63 0)
 		(unit 1)
@@ -5971,7 +6101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "426a7bdf-b5ca-4772-b3ad-6562e4268d1e")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 54.61 158.75 0)
 			(effects
 				(font
@@ -6285,7 +6415,73 @@
 		(instances
 			(project "PCI_104_PCIE_Adapterboard"
 				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
-					(reference "J8")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "441aea91-6d41-4b90-801a-f6a1af19889f")
+		(property "Reference" "#PWR058"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b30ccb3-7196-4525-8eb5-b752f7ccf57a")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7030,6 +7226,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88eeef63-0bfe-43f6-8456-7df058e07a4c")
+		(property "Reference" "#PWR060"
+			(at 69.85 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cca76e1-e399-4437-8b50-9736d09ee631")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 172.72 0)
 		(unit 1)
@@ -7630,6 +7892,72 @@
 			(project "PCI_104_PCIE_Adapterboard"
 				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4321b09-adf8-4e7f-88f6-fc8b3c703704")
+		(property "Reference" "#PWR059"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec92d83d-0f56-4121-af6d-f84907bfd545")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

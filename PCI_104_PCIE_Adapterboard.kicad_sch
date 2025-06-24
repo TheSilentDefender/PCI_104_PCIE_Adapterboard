@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ddda30ea-3132-4664-a3e5-44c7c2f9a0e8")
-	(paper "A2")
+	(paper "A5")
 	(title_block
 		(title "PCIe/104 Adapter")
 		(company "By Madhav Kapa")
