@@ -9,6 +9,16 @@
 		(company "By Madhav Kapa")
 	)
 	(lib_symbols)
+	(text "Stackup: JLC06161H-3313"
+		(exclude_from_sim no)
+		(at 40.132 65.786 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7429b0d8-c9ec-4587-8eee-55233b83d679")
+	)
 	(sheet
 		(at 36.83 40.64)
 		(size 21.59 21.59)

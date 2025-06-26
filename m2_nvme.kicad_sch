@@ -1509,6 +1509,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2363,6 +2470,10 @@
 		(uuid "237e6517-7212-4b7e-b147-740f9d0e4e1c")
 	)
 	(no_connect
+		(at 68.58 97.79)
+		(uuid "2505fdb6-d51b-4b7f-95ca-366133866fc1")
+	)
+	(no_connect
 		(at 144.78 41.91)
 		(uuid "29b18f49-394d-4953-a077-a60dcfb2c241")
 	)
@@ -2583,6 +2694,10 @@
 		(uuid "80f0fd8d-8eca-411a-884c-909e9ca31456")
 	)
 	(no_connect
+		(at 233.68 142.24)
+		(uuid "826e2afa-491a-402a-9459-414ddd531ef8")
+	)
+	(no_connect
 		(at 146.05 189.23)
 		(uuid "84a1121e-125b-4357-a7e0-55aac2e64193")
 	)
@@ -2707,6 +2822,10 @@
 		(uuid "c26b836d-4832-4ae9-a9a3-2b1852b62dc3")
 	)
 	(no_connect
+		(at 233.68 151.13)
+		(uuid "c3b7471a-095e-487f-a748-4cf85bf814d3")
+	)
+	(no_connect
 		(at 144.78 82.55)
 		(uuid "c40bd889-cdd1-471f-9118-99912e7600d6")
 	)
@@ -2807,6 +2926,10 @@
 		(uuid "ec0db48e-b807-432d-8986-79e5103126fd")
 	)
 	(no_connect
+		(at 233.68 160.02)
+		(uuid "f00c3886-693d-4e37-a4d4-46ecffc9d4ce")
+	)
+	(no_connect
 		(at 175.26 62.23)
 		(uuid "f1992d31-992a-4cc9-bd62-fe2a8e0be9f1")
 	)
@@ -2837,6 +2960,10 @@
 	(no_connect
 		(at 69.85 194.31)
 		(uuid "ff7535d3-ed36-472c-b9c2-17aa2d466ee0")
+	)
+	(no_connect
+		(at 233.68 133.35)
+		(uuid "ffb81559-65c5-4421-9835-7870792723da")
 	)
 	(no_connect
 		(at 176.53 209.55)
@@ -6694,6 +6821,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 233.68 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c7c3be9-66f9-4f59-9716-2e40cef49b6b")
+		(property "Reference" "H8"
+			(at 236.22 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 236.22 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eecc5b3-d49d-4922-9c45-e7413b427204")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 123.19 0)
 		(unit 1)
@@ -7292,6 +7486,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 233.68 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cad0a51-6b28-4b78-9e66-496ed25a76cb")
+		(property "Reference" "H6"
+			(at 236.22 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 236.22 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fab3dccb-1ee8-474b-8ce2-4154ff0f055f")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 172.72 0)
 		(unit 1)
@@ -7422,6 +7683,73 @@
 			(project "PCI_104_PCIE_Adapterboard"
 				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 233.68 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bac70d52-8c0d-4cc7-be7c-998b47613b23")
+		(property "Reference" "H5"
+			(at 236.22 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 236.22 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46e025d7-03ec-45d1-8458-aec24a95f4d4")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7892,6 +8220,73 @@
 			(project "PCI_104_PCIE_Adapterboard"
 				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 233.68 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df957b6b-9cae-433b-8555-e689f0fb8e64")
+		(property "Reference" "H7"
+			(at 236.22 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 236.22 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 233.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 233.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e39839bc-e7b6-4052-917e-e094fba919a0")
+		)
+		(instances
+			(project "PCI_104_PCIE_Adapterboard"
+				(path "/ddda30ea-3132-4664-a3e5-44c7c2f9a0e8/033eb65c-a6c5-42e7-b577-05b91c97d1b6"
+					(reference "H7")
 					(unit 1)
 				)
 			)
