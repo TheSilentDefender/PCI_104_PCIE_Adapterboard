@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|167361602|41271213|78cdbc33-6f9a-43f0-9c62-1e5210ce2b3f|034a71c8-9dbe-47b3-b995-07daf415777c",
-          ""
-        ],
-        [
-          "hole_clearance|212861602|41271213|9891ceb5-d2bf-449c-97da-d11a1b3893f2|5dce3d9e-16e8-4aeb-884e-f0cc91b5299a",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -500,10 +491,18 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1786,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
